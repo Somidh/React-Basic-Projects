@@ -1,0 +1,114 @@
+*, *::after, *::before,h1 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  /* background-color: #1A1B21; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  /* height: 100vh; */
+  color: #dddd;
+  font-family: 'Inter', sans-serif;
+}
+button{
+  cursor: pointer;
+  border: none;
+}
+#root{
+   margin: 1em auto;
+  width: 317px;
+  height: 100%;
+  background-color: #1A1B21;
+  border-radius: 10px;
+}
+.card{
+
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.avatar{
+  width: 317px;
+}
+.name{
+  font-size: 25px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.role{
+  margin-top: -10px;
+  margin-bottom: 5px; 
+  color:#F3BF99;
+  font-size: 12.8px;
+}
+.website{
+  color:#F5F5F5;
+  font-size: 10.24px;
+  letter-spacing: .2px;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+}
+.buttons > *{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 9px 13px 9px 11px; 
+  font-size: 14px;
+  letter-spacing: .5px;
+  border-radius: 6px;
+  width: 115px;
+}
+.email-btn{
+  background-color: #FFFFFF;
+}
+.linkedin-btn{
+  background-color: #5093E2;
+  color: #FFFFFF;
+}
+.buttons i{
+  font-size: 12.8px;
+}
+.about, .interest{
+  text-align: start;
+  margin: 1.5em 0;
+  padding:  0 35px;
+  
+}
+
+.about h1, .interest h1{
+  color: #F5F5F5;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.about p, .interest p{
+  color: #DCDCDC;
+  font-size: 12px;
+  line-height: 18px;
+}
+.footer{
+  display: flex;
+  background-color: #161619;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+  padding: 20px 0;
+}
+.footer button{
+  background-color: #918E9B;
+  padding: 4px; 
+  border-radius: 5px;
+}
