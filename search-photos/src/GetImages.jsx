@@ -11,8 +11,6 @@ const Photos = () => {
     const [loading, setLoading] = useState(false)
     const [images, setImages] = useState([])
     
-    const mainURL = 'https://api.unsplash.com/photos/'
-    const searchURL = 'https://api.unsplash.com/search/photos/'
     
     
     useEffect(() => {
