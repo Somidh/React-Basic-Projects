@@ -1,4 +1,6 @@
-#root {
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -38,4 +40,12 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+.image:hover .image-info {
+  transform: translateY(0)
+}
+
+.font {
+  font-family: 'Oxygen', sans-serif;
 }
